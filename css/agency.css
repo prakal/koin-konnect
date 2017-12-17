@@ -99,6 +99,9 @@ body {
     .ticket-font a {
       color: black; } }
 
+iframe, object, embed {
+  max-width: 100%; }
+
 #mainNav {
   background-color: #212529; }
   #mainNav .navbar-toggler {
