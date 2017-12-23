@@ -263,6 +263,8 @@ h5 {
       margin-bottom: 30px; }
     .portfolio-modal .modal-content button {
       cursor: pointer; }
+    .portfolio-modal .modal-content .leftalign {
+      text-align: left; }
   .portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
