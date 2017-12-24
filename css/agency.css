@@ -118,12 +118,14 @@ iframe, object, embed {
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #fec503; }
+  #mainNav .blackfont {
+    color: black; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: white;
+    color: grey;
     font-family: "Optimist Light","Proxima Nova Thin",Helvetica,Arial,sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #fed136; }
@@ -154,8 +156,7 @@ iframe, object, embed {
 
 header.masthead {
   text-align: center;
-  color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/Background.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -164,8 +165,8 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover; }
   header.masthead .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px; }
+    padding-top: 350px;
+    padding-bottom: 0px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
       font-style: italic;
@@ -178,11 +179,14 @@ header.masthead {
       line-height: 50px;
       margin-bottom: 25px;
       font-family: "Optimist Light","Proxima Nova Thin",Helvetica,Arial,sans-serif; }
+    header.masthead .intro-text .blackfont {
+      color: black; }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px; }
+    padding-top: 100px;
+    padding-bottom: 743px;
+    padding-left: 900px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 40px;
       font-style: italic;
@@ -194,7 +198,9 @@ header.masthead {
       font-weight: 700;
       line-height: 75px;
       margin-bottom: 50px;
-      font-family: "Optimist Light","Proxima Nova Thin",Helvetica,Arial,sans-serif; } }
+      font-family: "Optimist Light","Proxima Nova Thin",Helvetica,Arial,sans-serif; }
+    header.masthead .intro-text .blackfont {
+      color: black; } }
 
 .service-heading {
   margin: 15px 0;

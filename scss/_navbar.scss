@@ -21,6 +21,9 @@
       color: darken($primary, 10%);
     }
   }
+  .blackfont {
+    color: black;
+  }
   .navbar-nav {
     .nav-item {
       .nav-link {
@@ -28,7 +31,7 @@
         font-weight: 400;
         padding: 0.75em 0;
         letter-spacing: 1px;
-        color: white;
+        color: grey;
         @include heading-font;
         &.active,
         &:hover {
