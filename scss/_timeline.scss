@@ -56,6 +56,11 @@
       border: 7px solid $gray-200;
       border-radius: 100%;
       background-color: $primary;
+      i {
+        font-size: 5.2vw;
+        margin-top: 50%;
+        margin-bottom: 50%;
+      }
       h4 {
         font-size: 10px;
         line-height: 14px;
@@ -120,6 +125,11 @@
         width: 100px;
         height: 100px;
         margin-left: -50px;
+        i {
+          font-size: 5.2vw;
+          left: -20%;
+          top: 50%;
+        }
         h4 {
           font-size: 13px;
           line-height: 18px;
@@ -145,6 +155,10 @@
         width: 150px;
         height: 150px;
         margin-left: -75px;
+        i {
+          font-size: 5.2vw;
+          top: 100%;
+        }
         h4 {
           font-size: 18px;
           line-height: 26px;
@@ -180,6 +194,11 @@
         width: 170px;
         height: 170px;
         margin-left: -85px;
+        i {
+          font-size: 5.2vw;
+          left: -75%;
+          top: 100%;
+        }
         h4 {
           margin-top: 40px;
         }
