@@ -140,6 +140,7 @@ iframe, object, embed {
     border: none;
     background-color: transparent; }
     #mainNav .navbar-brand {
+      color: black;
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
@@ -151,6 +152,7 @@ iframe, object, embed {
       padding-bottom: 0;
       background-color: #212529; }
       #mainNav.navbar-shrink .navbar-brand {
+        color: #fed136;
         font-size: 1.25em;
         padding: 12px 0; } }
 
